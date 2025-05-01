@@ -54,9 +54,10 @@ public class MainController {
 //                    new BigDecimal(777),
 //                    maxLimit
 //            );
-            responseDTO.setRqUID(rqUID);
-            responseDTO.setClientId(clientId);
-            responseDTO.setAccount(requestDTO.getAccount());
+            // В условии сказано, что всего 3 строки отдать надо (currency, balance, max limit), поэтому закомментил на всякий случай
+            //responseDTO.setRqUID(rqUID);
+            //responseDTO.setClientId(clientId);
+            //responseDTO.setAccount(requestDTO.getAccount());
             responseDTO.setCurrency(currency);
             responseDTO.setBalance(new BigDecimal(777));
             responseDTO.setMaxLimit(maxLimit);
